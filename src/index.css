@@ -1,0 +1,61 @@
+.App{
+  text-align: center;
+  font-family: Arial;
+}
+
+/* The answer selecteed by the user */
+.selected {
+  background-color: orange;
+}
+
+/* The list of options */
+.options {
+  padding: 8px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body{
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.heading-quiz1{
+  text-align: center;
+  color:blue
+}
+
+.heading-quiz2{
+  text-align: center;
+  color:red
+}
+.scroll{
+  overflow-x: scroll;
+}
+
+.question1{
+  color:rgb(31, 31, 133)
+}
+.question2{
+  color:rgb(114, 25, 19)
+}
+
+.btn{
+width:50%;
+margin:10px 140px
+}
+.quiz1{
+  background-color: rgb(188, 228, 235);
+}
+.quiz2{
+  background-color: rgb(243, 202, 202);
+}
+.quiz1,.quiz2{
+  height:450px;
+  padding:20px;
+  margin-top:50px
+}
